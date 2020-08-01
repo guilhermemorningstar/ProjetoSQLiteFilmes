@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Editar filme"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/txtNomeUsuário"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre com um nome de usuário"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:text="Selecione o filme"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnFilmes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/filmes" />
+
+    <Button
+        android:id="@+id/btnAlterarfilme"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="Alterar"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+
+</LinearLayout>

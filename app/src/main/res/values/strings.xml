@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjetoSQLiteFilmes</string>
+    <array name="filmes">
+        <item>The Avengers</item>
+        <item>Matrix</item>
+        <item>Harry Potter</item>
+        <item>Senhor dos anéis</item>
+        <item>Hobbit</item>
+        <item>Velozes e furiosos</item>
+        <item>Star wars</item>
+    </array>
+</resources>
